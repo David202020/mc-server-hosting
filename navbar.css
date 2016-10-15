@@ -1,0 +1,53 @@
+.headerhover {
+	padding-left: 5%;
+	background-color: rgba(33,33,33 ,.95);
+	width: 95%;
+	height: 20%;
+	transform: translateX(-300%);
+	transition-duration: 200ms;
+	position: absolute;
+	z-index: 2;
+	transition-delay: 120ms;
+	margin-top: 1.5%;
+}
+
+.titlebar:hover .headerhover {
+	transform: translateX(0%);
+	transition-delay: 0ms;
+}
+
+.linktitle {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.sublink {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.textlink {
+	outline: none;
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-weight: bold;
+	font-size: 20px;
+	transition-duration: 100ms;
+}
+
+.textlink:hover {
+	color: rgba(76,175,80,1);
+}
+
+.textlink2 {
+	outline: none;
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-weight: normal;
+	font-size: 15px;
+	transition-duration: 100ms;
+}
+
+.textlink2:hover {
+	color: rgba(76,175,80,1);
+	text-decoration: underline;
+}
