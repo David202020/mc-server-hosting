@@ -68,7 +68,3 @@ li a {
 	color: rgba(76,175,80,1);
 	text-decoration: underline;
 }
-
-.textlink:active {
-	background-color: red;
-}
