@@ -5,6 +5,7 @@ body {
 	background-color: rgb(38,50,56);
 	background-attachment: fixed;
 	margin: 0px;
+	margin-bottom: 10px;
 }
 
 /*For large bodies of text within a container or div*/
@@ -22,6 +23,11 @@ hr {
 
 h2 {
 	margin: 0px;
+}
+
+img {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 /*For all buttons within a webpage*/
